@@ -1,0 +1,40 @@
+Why use Docker?
+Consistency (Works on My Machine™):
+No more "it works on my machine but not on yours" — containers ensure your app runs the same everywhere.
+
+Lightweight:
+Unlike virtual machines (VMs), Docker containers share the host OS kernel, making them faster and more resource-efficient.
+
+Portability:
+Package your app into a Docker container, push it to a Docker registry (like Docker Hub), and run it anywhere — cloud, on-premises, or local machines.
+
+Scalability:
+Docker works seamlessly with orchestration tools like Kubernetes for deploying and scaling multiple containers.
+
+Isolation:
+Each container runs in its own isolated environment — so multiple apps (or versions) can coexist on the same host.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is Docker?
+Docker: Docker is one of the Containerization tool that package the application and dependencies in one standard unit is called Contianer. 
+Docker is an open-source platform that makes it easy to develop, ship, and run applications in containers.
+=============================================================================================================================================================
+Step 1: A developer write dockerfile (text file ). It’s a simple, plain-text file that contains a series of instructions on how to build a Docker image.
+
+This image is immutable — it doesn’t change once built.
+Step 2: Once file is created by Running <docker build .> command create docker image. Docker image is an executable package we can run this image in container. docker container is nothing but running instance or run time instance of docker image.
+
+A Docker image is a lightweight, standalone, and executable package that contains everything needed to run a piece of software, including:
+
+The app’s code
+Runtime (like Node.js, Python, or Java)
+Libraries and dependencies
+Environment variables
+Configuration files
+Step 3: once we have docker image we push this image to online repository which is docker hub.
+
+step 4: once docker image is pushed in docker hub and after that can pull that image in our environment and can run within the container. A Docker image is an executable, lightweight package containing everything needed to run an application (code, runtime, libraries, and dependencies).
+
+
+
+
+
